@@ -15,10 +15,10 @@
 
 # Implemented Sorting Algorithms
 - Bubble Sort &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O(n<sup>2</sup>)
-- Selection Sort    O(n<sup>2</sup>)
-- Insertion Sort    O(n<sup>2</sup>)
-- Merge Sort        O(n log n)
-- Quick Sort        O(n log n)
+- Selection Sort &nbsp;&nbsp;&nbsp;&nbsp; O(n<sup>2</sup>)
+- Insertion Sort &nbsp;&nbsp;&nbsp;&nbsp; O(n<sup>2</sup>)
+- Merge Sort &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O(n log n)
+- Quick Sort &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O(n log n)
 
 # Getting Started with Create React App
 
