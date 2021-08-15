@@ -1,12 +1,24 @@
-# Sorting Visualizer
+# 🌈 Sorting Visualizer
 
-This is a visualization tool for sorting algorithms made using React JS. I made this project to help me comprehend the working of the sorting algorithms.
+- This is a visualization tool for sorting algorithms made using React JS. 
+- I build this project because I fascinated by the sorting algorithms and wanted to visualize them in action.
+- It also helps me comprehend the working of the sorting algorithms.
 
 # Sorting Visualizer Interface
+![sorting algo](https://user-images.githubusercontent.com/52111635/129484542-a779c119-d63f-4a3f-b20d-3f734e11d782.PNG)
 
-Green bars => Sorted
-Yellow bars => Compare
-Red bars => Swap
+# Color Codes
+![#30D5C8]  Generic value in the array
+![#4bc52e]  Sorted
+![#ffff50]  Key comparison
+![#fc0104]  Value being swapped
+
+# Implemented Sorting Algorithms
+- Bubble Sort       O(n<sup>2</sup>)
+- Selection Sort    O(n<sup>2</sup>)
+- Insertion Sort    O(n<sup>2</sup>)
+- Merge Sort        O(n log n)
+- Quick Sort        O(n log n)
 
 # Getting Started with Create React App
 
