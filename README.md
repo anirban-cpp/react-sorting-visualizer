@@ -14,7 +14,7 @@
 ![#fc0104](https://via.placeholder.com/15/fc0104/000000?text=+)  Value being swapped <br><br>
 
 # Implemented Sorting Algorithms
-- Bubble Sort       O(n<sup>2</sup>)
+- Bubble Sort &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O(n<sup>2</sup>)
 - Selection Sort    O(n<sup>2</sup>)
 - Insertion Sort    O(n<sup>2</sup>)
 - Merge Sort        O(n log n)
