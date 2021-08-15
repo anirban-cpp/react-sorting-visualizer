@@ -1,3 +1,13 @@
+# Sorting Visualizer
+
+This is a visualization tool for sorting algorithms made using React JS. I made this project to help me comprehend the working of the sorting algorithms.
+
+# Sorting Visualizer Interface
+
+Green bars => Sorted
+Yellow bars => Compare
+Red bars => Swap
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
