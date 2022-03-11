@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './Bars.css'
 
-function ListBlocks({ blocks, compare, sorted, swap }) {
+const Bars = ({ blocks, compare, sorted, swap }) => {
   const [width, setWidth] = useState(
     Math.min(20, Math.ceil(window.innerWidth / blocks.length) - 5)
   )
@@ -52,4 +52,4 @@ function ListBlocks({ blocks, compare, sorted, swap }) {
   )
 }
 
-export default ListBlocks
+export default Bars

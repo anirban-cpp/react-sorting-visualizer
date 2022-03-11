@@ -16,10 +16,13 @@ function App() {
     setSorting(false)
     setSortedIndex([])
 
-    const randomArray = Array.from(Array(len + 1).keys()).slice(1)
+    const randomArray = Array.from(Array(len + 1).keys()).slice(1)  // generates an array [1,2,3,......,len]
+
+    // randomly shuffle the array
+    // Took reference from "https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array"
 
     for (let i = randomArray.length - 1; i > 0; i--) {
-      const randomIndex = Math.floor(Math.random() * (i - 1))
+      const randomIndex = Math.floor(Math.random() * (i - 1)) // Math.random() generates random number bretween 0(inclusive) and 1(exclusive)
       const temp = randomArray[i]
 
       randomArray[i] = randomArray[randomIndex]
@@ -40,7 +43,7 @@ function App() {
   const [swap, setSwap] = useState([])
   const [sortedIndex, setSortedIndex] = useState([])
 
-  // Generating random array every time the length is changed by th user
+  // Generating random array every time the length is changed by the user
   useEffect(() => {
     generateRandomArray(len)
   }, [len, algo])

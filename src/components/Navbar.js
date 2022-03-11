@@ -1,5 +1,5 @@
-import React from 'react'
-import './Navbar.css'
+import React from "react";
+import "./Navbar.css";
 
 const Navbar = ({
   handleLength,
@@ -15,49 +15,41 @@ const Navbar = ({
 }) => {
   return (
     <nav>
-      <div
-        className='nav-brand'
-        onClick={() =>
-          (window.location =
-            'https://github.com/harsh-solanki21/sorting-visualizer')
-        }
-      >
-        Sorting Visualizer
-      </div>
+      <div className="nav-brand">Sorting Visualizer</div>
 
-      <div className='toolbox'>
+      <div className="toolbox">
         <div>
-          <div className='group speed'>
+          <div className="group speed">
             <label>Speed</label>
             <input
-              type='range'
+              type="range"
               onChange={handleSpeed}
-              min='1'
-              max='10'
+              min="1"
+              max="10"
               value={Math.ceil(400 / speed)}
               disabled={sorting}
-            ></input>
+            />
           </div>
 
-          <div className='group length'>
+          <div className="group length">
             <label>Length</label>
             <input
-              type='range'
+              type="range"
               onChange={handleLength}
-              min='5'
+              min="5"
               max={100}
-              step='1'
+              step="1"
               disabled={sorting}
               value={len}
-            ></input>
+            />
           </div>
 
           <select onChange={handleAlgo} disabled={sorting} value={algo}>
-            <option value='bubbleSort'>Bubble Sort</option>
-            <option value='selectionSort'>Selection Sort</option>
-            <option value='insertionSort'>Insertion Sort</option>
-            <option value='mergeSort'>Merge Sort</option>
-            <option value='quickSort'>Quick Sort</option>
+            <option value="bubbleSort">Bubble Sort</option>
+            <option value="selectionSort">Selection Sort</option>
+            <option value="insertionSort">Insertion Sort</option>
+            <option value="mergeSort">Merge Sort</option>
+            <option value="quickSort">Quick Sort</option>
           </select>
         </div>
 
@@ -71,7 +63,7 @@ const Navbar = ({
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
